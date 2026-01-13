@@ -34,8 +34,9 @@ Admin-panel should have an authorization page which can provide auth through soc
 </br>
 <img width="1874" height="950" alt="image" src="https://github.com/user-attachments/assets/9707ea7b-b743-44eb-a6ea-8eb1ddf64d11" />
 </br>
-<img width="822" height="963" alt="image" src="https://github.com/user-attachments/assets/024582d5-9e6b-4675-802d-38f77ef13a7b" />
+<img width="1433" height="795" alt="image" src="https://github.com/user-attachments/assets/331a6dcc-1988-4943-8812-58e2d306a535" />
 </br>
-<img width="833" height="597" alt="image" src="https://github.com/user-attachments/assets/47dedc4e-c3a5-44b6-b253-8c4ef4e80add" />
+<img width="1579" height="807" alt="image" src="https://github.com/user-attachments/assets/b55de8f9-6e60-454d-aaef-7f78a0fd531f" />
 </br>
-<img width="828" height="611" alt="image" src="https://github.com/user-attachments/assets/b2d73408-621f-4111-a7d8-02125ee58868" />
+<img width="1478" height="767" alt="image" src="https://github.com/user-attachments/assets/ef01d24c-65d7-4cf6-b525-da32faed2cae" />
+
