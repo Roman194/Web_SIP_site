@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+
+  color: black;
+
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(204, 0, 21, 1);
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.block-title {
+  margin-bottom: 25px;
+
+  font-size: 32px;
+  font-family: 'Dela Gothic One', sans-serif;
+}

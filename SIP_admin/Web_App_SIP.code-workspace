@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Web_App_SIP",
+			"path": "../Web_App_SIP"
+		},
+		{
+			"name": "SIP_admin",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

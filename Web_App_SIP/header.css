@@ -1,0 +1,36 @@
+.header {
+  padding: 15px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-navigation {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.top-navigation__link {
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+.top-navigation__link:hover {
+  color: rgba(204, 0, 21, 1);
+}
+
+@media (max-width: 875px) {
+  .top-navigation {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+  }
+
+  .top-navigation__link {
+    text-align: right;
+  }
+}

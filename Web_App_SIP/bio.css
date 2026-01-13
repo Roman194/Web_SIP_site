@@ -1,0 +1,62 @@
+.bio {
+  padding: 90px 0;
+
+  color: white;
+  background-color: black;
+}
+
+.bio__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.bio__img {
+  width: 500px;
+  height: 400px;
+  margin-right: 50px;
+
+  object-fit: cover;
+}
+
+.bio__top-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio__suptitle {
+  color: rgba(204, 0, 21, 1);
+}
+
+.bio__title {
+  font-size: 64px;
+  font-family: 'Dela Gothic One', sans-serif;
+
+  color: white;
+}
+
+.bio__second-title {
+  color: rgba(204, 0, 21, 1);
+}
+
+.bio__paragraph {
+  margin: 25px 0;
+
+  color: white;
+}
+
+@media (max-width: 1080px) {
+  .bio {
+    padding: 60px 0;
+  }
+
+  .bio__img {
+    display: none;
+  }
+}
+
+@media (max-width: 525px) {
+  .bio__title {
+    font-size: 45px;
+  }
+}

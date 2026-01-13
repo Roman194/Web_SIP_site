@@ -1,0 +1,44 @@
+.tab-row {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-bottom: 1px solid #ccc; /* Optional underline */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+}
+
+.tab {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  white-space: nowrap;
+  color: #000000;
+  transition: background-color 0.3s ease;
+  margin-right: 45px;
+}
+
+.tab:last-child {
+  margin-right: 0; /* no space after last tab */
+}
+
+.tab:hover {
+  background-color: #eee;
+}
+
+.tab.active {
+  border-bottom: 3px solid rgb(0, 0, 0); /* Example active indicator */
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  display: none;
+  padding: 20px;
+}
+
+.content.active {
+  display: block;
+}

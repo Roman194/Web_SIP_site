@@ -1,0 +1,162 @@
+.bio {
+  padding: 90px 0;
+
+  color: white;
+  background-color: black;
+}
+
+.bio__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.bio__img {
+  width: 500px;
+  height: 400px;
+  margin-right: 50px;
+
+  object-fit: cover;
+}
+
+.bio__top-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio__suptitle {
+  color: rgba(204, 0, 21, 1);
+}
+
+.bio__title {
+  font-size: 64px;
+  font-family: 'Dela Gothic One', sans-serif;
+
+  color: white;
+}
+
+.bio__second-title {
+  color: rgba(204, 0, 21, 1);
+}
+
+.bio__paragraph {
+  margin: 25px 0;
+  color: white;
+}
+
+.bio__text{
+  display: none;
+}
+
+.bio__text.active{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.bio__text__update{
+  display: none;
+}
+
+.bio__text__delete{
+
+}
+
+.bio__text__update.active{
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0px;
+}
+
+.bio__text__create{
+  display: none;
+}
+
+.bio__text__create.active{
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0px;
+}
+
+.bio__text__create form{
+  display: flex;
+  gap: 25px;
+}
+
+.bio__text__create input{
+  width: 75%;
+}
+
+.bio__text__create__button{
+  display: none;
+}
+
+.bio__text__create__button.active{
+  display: flex;
+  justify-content: center;
+}
+
+.bio__text__update form{
+  display: flex;
+  gap: 25px;
+}
+
+.bio__text__update input{
+  width: 75%;
+}
+
+.bio__text__update-unvisible{
+  display: none;
+}
+
+.bio__text__delete-unvisible{
+  display: none;
+}
+
+.bio__text__delete__confirm{
+  display: none;
+}
+
+.bio__text__delete__confirm.active{
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  justify-content: center;
+}
+
+.bio__text__delete__confirm p{
+  color: #ffffff;
+}
+
+.bio__text__delete__confirm form{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+@media (max-width: 1080px) {
+  .bio {
+    padding: 60px 0;
+  }
+
+  .bio__img {
+    display: none;
+  }
+}
+
+@media (max-width: 525px) {
+  .bio__title {
+    font-size: 45px;
+  }
+}
+
+.bio__bottom__update{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio__text__update-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}

@@ -1,0 +1,100 @@
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 28px;
+
+  color: white;
+  background-color: rgba(204, 0, 21, 1);
+  border: 1px solid rgba(204, 0, 21, 1);
+  border-radius: 6px;
+
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(175, 0, 18);
+  border-color: rgb(175, 0, 18);
+
+  cursor: pointer;
+}
+
+button.outlined {
+  color: rgba(204, 0, 21, 1);
+  background-color: transparent;
+}
+
+button.outlined:hover {
+  color: white;
+  background-color: rgba(204, 0, 21, 1);
+}
+
+button a {
+  color: white;
+}
+
+button.outlined a {
+  color: rgba(204, 0, 21, 1);
+}
+
+button img {
+  width: 25px;
+  height: 25px;
+
+  object-fit: cover;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 28px;
+
+  color: white;
+  background-color: rgba(204, 0, 21, 1);
+  border: 1px solid rgba(204, 0, 21, 1);
+  border-radius: 6px;
+
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  background-color: rgb(175, 0, 18);
+  border-color: rgb(175, 0, 18);
+
+  cursor: pointer;
+}
+
+.button.outlined {
+  color: rgba(204, 0, 21, 1);
+  background-color: transparent;
+}
+
+.button.outlined:hover {
+  color: white;
+  background-color: rgba(204, 0, 21, 1);
+}
+
+.button a {
+  color: white;
+}
+
+.button.outlined a {
+  color: rgba(204, 0, 21, 1);
+}
+
+.button img {
+  width: 25px;
+  height: 25px;
+
+  object-fit: cover;
+}

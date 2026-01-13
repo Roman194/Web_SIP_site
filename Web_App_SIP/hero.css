@@ -1,0 +1,42 @@
+.hero {
+  background-image: url('./assets/hero_image.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__inner {
+  padding: 160px 0;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+
+  font-size: 60px;
+  font-family: 'Dela Gothic One', sans-serif;
+
+  color: white;
+}
+
+@media (max-width: 850px) {
+  .hero {
+    background-position: 30% 0;
+  }
+
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+  }
+
+  .hero__title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 485px) {
+  .hero__title {
+    font-size: 45px;
+  }
+}

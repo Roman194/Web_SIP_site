@@ -1,0 +1,52 @@
+.achievements {
+  padding: 30px 0;
+
+  border-bottom: 1px solid black;
+}
+
+.achievements__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.achievement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.achievement-list__item {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.achievement-list__item:hover p {
+  color: rgba(204, 0, 21, 1);
+}
+
+.achievement-list__item p {
+  width: 100%;
+  margin-left: 15px;
+  padding: 25px;
+
+  font-size: 24px;
+  text-decoration: underline;
+
+  border-radius: 12px;
+
+  box-shadow: 0 0 16px rgba(51, 51, 51, 0.25);
+
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+@media (max-width: 450px) {
+  .cup-img {
+    width: 120px;
+    height: 120px;
+  }
+}
