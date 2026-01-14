@@ -35,10 +35,10 @@
         <div class="header__inner">
           <img class="SIP-logo" src="assets/SIP_label.svg" alt="Smash Into Pieces" />
           <div class="top-navigation">
-            <a href="#bio" class="top-navigation__link">Биография</a>
-            <a href="#achievements" class="top-navigation__link">Достижения</a>
-            <a href="#announces" class="top-navigation__link">Анонсы</a>
-            <a href="#official_pages" class="top-navigation__link">Официальные страницы (справка)</a>
+            <a href="#bio" class="top-navigation__link" title="К разделу биографии">Биография</a>
+            <a href="#achievements" class="top-navigation__link" title="К разделу достижений">Достижения</a>
+            <a href="#announces" class="top-navigation__link" title="К разделу анонсов">Анонсы</a>
+            <a href="#official_pages" class="top-navigation__link" title="К разделу с контакной информацией">Официальные страницы (справка)</a>
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@
               </table>
               <!-- https://logowik.com/content/uploads/images/svg-right-arrow-icon1716584944.logowik.com.webp-->
               <div class="footer__buttons">
-                <a class="button" href="#header"
+                <a class="button" href="#header" title="К навигации сайта"
                   >Вверх
                   <img
                     src="assets/up_arrow.svg"

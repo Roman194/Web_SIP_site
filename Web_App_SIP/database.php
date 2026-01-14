@@ -5,7 +5,7 @@ $password = '';
 
 $database = 'sip_info';
 
-$servername='localhost:3307';
+$servername='localhost:3308';
 $mysqli = new mysqli($servername, $user,
                 $password, $database);
 
