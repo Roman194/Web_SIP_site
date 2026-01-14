@@ -6,9 +6,9 @@ Admin-panel should have an authorization page which can provide auth through soc
 ## Used features
 - html + css (as a static websites markup) </br>
 - php (as a way to connect to the DB and provide authorization, sessions and CRUD-operations)</br>
-- js (as a dynamic websites content; used only in admin-panel)</br>
+- js (as a dynamic websites content and working with VK API; used only in admin-panel)</br>
 - XAMP (as a localhost with DB "MySQL") </br>
-- CloudPub (as a globalhost; to provide auth through "VK") </br>
+- CloudPub (as a globalhost; to provide auth through VK API) </br>
 ## Screenshots
 ### Desktop version
 <img width="522" height="1377" alt="image" src="https://github.com/user-attachments/assets/0e60ea32-372d-4819-80bb-0d5f5fe75c40" />
